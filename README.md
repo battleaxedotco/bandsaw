@@ -2,7 +2,7 @@
 
 [![NPM](https://nodei.co/npm/bandsaw.png)](https://npmjs.org/package/bandsaw)
 
-By user request for [Timelord](https://www.battleaxe.co/timelord), a simple spellbook for auto-cropping PNGs.
+Prototype feature request for [Timelord](https://www.battleaxe.co/timelord), a simple spellbook for auto-cropping PNGs.
 
 ![](./logo.png)
 
