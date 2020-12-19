@@ -15,6 +15,10 @@ npm install bandsaw
 ## Use
 
 ```js
+import bandsaw from "bandsaw";
+```
+
+```js
 let result = await bandsaw.trim(input, padding);
 ```
 
