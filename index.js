@@ -73,7 +73,7 @@ function trimItem(targFile, padding) {
       // Get drawing context, then set source.src to base64 dynamically
       const context = canvas.getContext("2d");
       const img = new Image();
-      img.onload = function() {
+      img.onload = function () {
         //
         // This gets called after the src overwrite. Paint the image with our data
         context.drawImage(this, 0, 0, canvas.width, canvas.height);
@@ -139,7 +139,7 @@ function trimCanvas(canvas, filepath, padding) {
       : bound[key] + padding;
   });
   //
-  // Ensure that the padding exceed width/height parameters or is below 0
+  // Ensure that the padding never exceeds width/height parameters or is below 0
   Object.keys(bound).forEach((key) => {
     bound[key] = clamp(
       bound[key],
