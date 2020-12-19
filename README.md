@@ -18,20 +18,16 @@ npm install bandsaw
 let result = await bandsaw.trim(input, padding);
 ```
 
-<br />
-
 ---
-
-<br />
 
 ## trim(input[, padding?])
 
 The main function of bandsaw: to autotrim png images, rewrite original files, and return verbose data about our crop for accurate positioning from PS to AE.
 
-| Param   | Type             | Default |                                                                                                                                                              Description |
-| :------ | :--------------- | :------ | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| input   | `[Array,String]` | `null`  | An `Array` of absolute filepaths or a single `String` to either a file or folder. When a folder is provided, `trim()` will act on all it's contents (but only for PNGs). |
-| padding | `Number`         | `0`     |                                 A `Number` to extend the cropbox on every side (e.g., `5` will extend 5px in each direction, resulting in +10px width and height total). |
+| Param   | Type              | Default |                                                                                                                                                              Description |
+| :------ | :---------------- | :------ | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| input   | `[Array, String]` | `null`  | An `Array` of absolute filepaths or a single `String` to either a file or folder. When a folder is provided, `trim()` will act on all it's contents (but only for PNGs). |
+| padding | `Number`          | `0`     |                                 A `Number` to extend the cropbox on every side (e.g., `5` will extend 5px in each direction, resulting in +10px width and height total). |
 
 ---
 
