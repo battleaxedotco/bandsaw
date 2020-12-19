@@ -72,7 +72,7 @@ let files = [
   "C:/Users/TRSch/OneDrive/testFolder",
 ];
 let result = await bandsaw.trim(files);
-console.log(result); // Returns Array with length of 2
+console.log(result); // Returns Array with length of 5 (1 + 4 inside folder)
 ```
 
 ---
