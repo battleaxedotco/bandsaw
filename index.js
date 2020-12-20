@@ -131,6 +131,9 @@ function trimCanvas(canvas, filepath, padding) {
       bound.bottom =
         bound.bottom === null || bound.bottom < y ? y : bound.bottom;
     }
+
+  bound.right += 1;
+  bound.bottom += 1;
   //
   // Attempt to add padding to all sides
   Object.keys(bound).forEach((key) => {
